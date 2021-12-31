@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="5000"
+        android:interpolator="@android:interpolator/accelerate_decelerate">
+        <propertyValuesHolder
+            android:propertyName="rotationX"
+            android:valueFrom="0"
+            android:valueTo="3600"
+            android:valueType="floatType" />
+        <propertyValuesHolder
+            android:propertyName="backgroundColor"
+            android:valueFrom="@color/black"
+            android:valueTo="@color/white"
+            android:valueType="colorType" />
+    </objectAnimator>
+    <objectAnimator
+        android:duration="5000"
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:startOffset="5000">
+        <propertyValuesHolder
+            android:propertyName="rotationY"
+            android:valueFrom="0"
+            android:valueTo="3600"
+            android:valueType="floatType" />
+        <propertyValuesHolder
+            android:propertyName="backgroundColor"
+            android:valueFrom="@color/white"
+            android:valueTo="@color/black"
+            android:valueType="colorType" />
+    </objectAnimator>
+</set>
