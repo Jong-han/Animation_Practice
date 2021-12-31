@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.jh.animation_practice.objectanimator.ObjectAnimatorActivity
 import com.jh.animation_practice.tween.AnimationSetActivity
+import com.jh.animation_practice.valueanimator.ValueAnimatorActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,12 +15,16 @@ class MainActivity : AppCompatActivity() {
 
         val animationSetButton = findViewById<Button>(R.id.btn_animation_set)
         val objectAnimatorButton = findViewById<Button>(R.id.btn_object_animator)
+        val valueAnimatorButton = findViewById<Button>(R.id.btn_value_animator)
 
         animationSetButton.setOnClickListener {
             startActivity(Intent(this, AnimationSetActivity::class.java))
         }
         objectAnimatorButton.setOnClickListener {
             startActivity(Intent(this, ObjectAnimatorActivity::class.java))
+        }
+        valueAnimatorButton.setOnClickListener {
+            startActivity(Intent(this, ValueAnimatorActivity::class.java))
         }
 
     }

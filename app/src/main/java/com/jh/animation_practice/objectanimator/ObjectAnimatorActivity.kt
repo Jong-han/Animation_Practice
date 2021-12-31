@@ -49,11 +49,11 @@ class ObjectAnimatorActivity : AppCompatActivity() {
             })
         }
 
-//        ObjectAnimator.ofFloat(view, View.TRANSLATION_X, -300f, 300f).apply {
-//            duration = 500
-//            repeatMode = ValueAnimator.REVERSE
-//            repeatCount = ValueAnimator.INFINITE
-//        }.start()
+        ObjectAnimator.ofFloat(view, View.TRANSLATION_X, -300f, 300f).apply {
+            duration = 500
+            repeatMode = ValueAnimator.REVERSE
+            repeatCount = ValueAnimator.INFINITE
+        }.start()
 
         intervalXAnimationColorChange.setTarget( view )
 

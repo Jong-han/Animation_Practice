@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Animation_Practice">
-        <activity android:name=".objectanimator.ObjectAnimatorActivity"></activity>
+        <activity android:name=".valueanimator.ValueAnimatorActivity" />
+        <activity android:name=".objectanimator.ObjectAnimatorActivity" />
         <activity android:name=".tween.AnimationSetActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
