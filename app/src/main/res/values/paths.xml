@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="path_h_1">M 0 0 L 0 24 L 6 24 L 6 0 Z</string>
+    <string name="path_h_2">M 24 0 L 24 24 L 18 24 L 18 0 Z</string>
+    <string name="path_h_3">M 0 9 L 24 9 L 24 15 L 0 15 Z</string>
+
+    <string name="path_z_3">M 24 0 L 18 0 L 0 24 L 6 24 Z</string>
+    <string name="path_z_1">M 0 0 L 24 0 L 18 8 L 0 8 Z</string>
+    <string name="path_z_2">M 0 24 L 6 16 L 24 16 L 24 24 Z</string>
+</resources>

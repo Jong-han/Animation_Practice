@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportHeight="30"
+    android:viewportWidth="30">
+
+    <group>
+        <path
+            android:name="z_1"
+            android:pathData="@string/path_z_1"
+            android:fillColor="@color/teal_200"/>
+        <path
+            android:name="z_2"
+            android:pathData="@string/path_z_2"
+            android:fillColor="@color/teal_200"/>
+        <path
+            android:name="z_3"
+            android:pathData="@string/path_z_3"
+            android:fillColor="@color/teal_200"/>
+    </group>
+
+</vector>

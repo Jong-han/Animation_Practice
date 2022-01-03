@@ -7,6 +7,7 @@ import android.widget.Button
 import com.jh.animation_practice.objectanimator.ObjectAnimatorActivity
 import com.jh.animation_practice.tween.AnimationSetActivity
 import com.jh.animation_practice.valueanimator.ValueAnimatorActivity
+import com.jh.animation_practice.vectordrawable.VectorDrawableActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val animationSetButton = findViewById<Button>(R.id.btn_animation_set)
         val objectAnimatorButton = findViewById<Button>(R.id.btn_object_animator)
         val valueAnimatorButton = findViewById<Button>(R.id.btn_value_animator)
+        val animatedVectorDrawable = findViewById<Button>(R.id.btn_animated_vector_drawable)
 
         animationSetButton.setOnClickListener {
             startActivity(Intent(this, AnimationSetActivity::class.java))
@@ -25,6 +27,9 @@ class MainActivity : AppCompatActivity() {
         }
         valueAnimatorButton.setOnClickListener {
             startActivity(Intent(this, ValueAnimatorActivity::class.java))
+        }
+        animatedVectorDrawable.setOnClickListener {
+            startActivity(Intent(this, VectorDrawableActivity::class.java))
         }
 
     }

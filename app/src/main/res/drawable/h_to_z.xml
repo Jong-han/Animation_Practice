@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/ic_h">
+    <target android:name="h_1" >
+        <aapt:attr name="android:animation">
+            <set
+                android:fillAfter = "true"
+                android:ordering="together">
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:valueType="pathType"
+                    android:valueFrom="@string/path_h_1"
+                    android:valueTo="@string/path_z_1"
+                    android:duration="400" />
+                <objectAnimator
+                    android:propertyName="fillColor"
+                    android:valueFrom="@color/purple_200"
+                    android:valueTo="@color/teal_200"
+                    android:duration="400" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="h_2" >
+        <aapt:attr name="android:animation">
+            <set
+                android:fillAfter = "true"
+                android:ordering="together">
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:valueType="pathType"
+                    android:valueFrom="@string/path_h_2"
+                    android:valueTo="@string/path_z_2"
+                    android:duration="400" />
+                <objectAnimator
+                    android:propertyName="fillColor"
+                    android:valueFrom="@color/purple_200"
+                    android:valueTo="@color/teal_200"
+                    android:duration="400" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="h_3" >
+        <aapt:attr name="android:animation">
+            <set
+                android:fillAfter = "true"
+                android:ordering="together">
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:valueType="pathType"
+                    android:valueFrom="@string/path_h_3"
+                    android:valueTo="@string/path_z_3"
+                    android:duration="400" />
+                <objectAnimator
+                    android:propertyName="fillColor"
+                    android:valueFrom="@color/purple_200"
+                    android:valueTo="@color/teal_200"
+                    android:duration="400" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
