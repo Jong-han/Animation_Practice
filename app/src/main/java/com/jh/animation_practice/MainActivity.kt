@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.jh.animation_practice.motionlayout.MotionLayoutActivity
 import com.jh.animation_practice.objectanimator.ObjectAnimatorActivity
 import com.jh.animation_practice.tween.AnimationSetActivity
 import com.jh.animation_practice.valueanimator.ValueAnimatorActivity
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         val objectAnimatorButton = findViewById<Button>(R.id.btn_object_animator)
         val valueAnimatorButton = findViewById<Button>(R.id.btn_value_animator)
         val animatedVectorDrawable = findViewById<Button>(R.id.btn_animated_vector_drawable)
+        val motionLayout = findViewById<Button>(R.id.btn_motion_layout)
 
         animationSetButton.setOnClickListener {
             startActivity(Intent(this, AnimationSetActivity::class.java))
@@ -30,6 +32,9 @@ class MainActivity : AppCompatActivity() {
         }
         animatedVectorDrawable.setOnClickListener {
             startActivity(Intent(this, VectorDrawableActivity::class.java))
+        }
+        motionLayout.setOnClickListener {
+            startActivity(Intent(this,MotionLayoutActivity::class.java))
         }
 
     }
